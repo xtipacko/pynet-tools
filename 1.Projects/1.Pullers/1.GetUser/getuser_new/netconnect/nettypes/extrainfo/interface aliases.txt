@@ -1,0 +1,83 @@
+[65xx_type1]
+Gi2/39    GigabitEthernet2/39
+Fa3/3     FastEthernet3/3
+Te1/4     TenGigabitEthernet1/4
+Po10      Port-channel10
+Lo999     Loopback999
+Vl78      Vlan78
+
+[65xx_type2 same as type1] 
+
+[3750]
+Fa1/0/1   FastEthernet1/0/1
+Gi1/0/2   GigabitEthernet1/0/2
+Po5       Port-channel5
+
+[Cisco Routers]
+
+GigabitEthernet0/0
+GigabitEthernet0/0.11
+Gi0/0.1254
+Virtual-Access2.32
+Virtual-Template1
+Null0
+
+
+[ASR]
+
+Te0/0/0.11             TenGigabitEthernet0/0/0.11
+GigabitEthernet0/0/5   Gi0/0/0
+
+GigabitEthernet0       Gi0
+
+[VXR]
+
+Serial0/0/0:2
+
+
+[ELTEX MES]
+fa1/0/12  fastethernet 1/0/24
+gi1/0/2   gigabitethernet 1/0/2
+
+[ELTEX LTP]
+* CAN REPRESENT INTERFACES AS SEPARATE PARTS F.E. IN INTERFACE CONFIGURED TABLE
+
+GPON-port 0
+front-port 0
+10G-front-port 0
+pon-port 0
+ont 3/45     ONT0/0
+
+
+[SNR type 1]
+
+1/0/2    Ethernet1/0/2
+
+[SNR type 2]
+
+g0/1     GigaEthernet0/28
+
+
+[Alpha]
+*just number  f.e.
+18         Port 18
+
+[dlink des/dgs]
+
+1:1   Port : 1:1
+1:24  Port : 1:24
+
+
+[BDCOM]
+
+g0/6
+epon0/1:27  EPON0/1:27
+
+
+[Mikrotik]
+
+ether2
+
+[dir100]
+
+eth0

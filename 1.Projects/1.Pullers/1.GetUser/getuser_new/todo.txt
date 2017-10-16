@@ -1,0 +1,21 @@
+classificator
+
+- ...
+- retrieve all mac addresses (fill  devicetable)
+- retrieve all arp tables (fill devicetable)
+- retrieve all interface tables (fill devicetable)
+- retrieve all route tables (fill devicetable)
+- determine all device roles (fill devicetable)
+- find list of mac addresses for access ip-s for all devices via arptable (fill devicetable)
+  - find all interfaces (on devices) with mac-addresses from list - define their role as uplink(for interfaces with mac-address of L3SW-s)/downlink(for interfaces with mac-address of L2SW-s, not containing mac-addresses of L3SW-s)/access(for other)
+     (*define interface roles) 
+- ...
+-> save all via persistance
+
+gu
+
+- ...VPDN/BRAS
+- retrieve devicelist from db via persistance
+- ...find mac by ip in arp online
+- find interface(s) in mac address-tables by globalmaclookup, excluding uplink/downlink interfaces
+- show interface state (online query)
