@@ -1,6 +1,6 @@
 #old version
-# to-do: remove: duplicates like this 3,11: 1-12, 3, 11, 122-124, 127-128, 953
-#        fix:    add doesn't work with VlanRange type
+# to-do: remove: duplicates like this 3,11: 1-12, 3, 11, 122-124, 127-128, 953 
+#        fix:    add doesn't work with VlanRange type (unhide self.__ranges and use it to merge with...)
 #        add:    support for + and - operators
 
 import re
